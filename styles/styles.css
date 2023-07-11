@@ -6,6 +6,10 @@
     /* max-width: 1920px; */
 }
 
+main{
+    margin-bottom: 125px;
+}
+
 .btn-primary {
     border-radius: 8px;
     background-color: #E55473;
