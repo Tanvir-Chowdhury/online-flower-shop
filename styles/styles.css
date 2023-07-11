@@ -81,6 +81,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 128px;
+    gap: 24px;
 }
 
 .flower-1-1 {
@@ -136,11 +137,12 @@
 
 .instructions {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     padding: 86px 175px;
     text-align: center;
+    gap: 100px;
 }
 
 .pic-primary-pic {
