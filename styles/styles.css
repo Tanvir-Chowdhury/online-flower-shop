@@ -2,12 +2,13 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    padding: 0;
     /* max-width: 1920px; */
 }
 
 .btn-primary {
     border-radius: 8px;
-    background: #E55473;
+    background-color: #E55473;
     color: white;
     color: #FFF;
     font-size: 20px;
@@ -86,7 +87,7 @@
 
 .flower-1-1 {
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
+    background-color: rgba(167, 33, 98, 0.15);
     padding: 110px 76px 0 76px;
     /* height: 538px;
     width: 464px; */
@@ -103,7 +104,7 @@
 
 .flower-2-2 {
     border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
+    background-color: rgba(5, 151, 160, 0.15);
     padding: 117px 47px 51px 47px;
     /* height: 538px;
     width: 464px; */
@@ -120,7 +121,7 @@
 
 .flower-3-3 {
     border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
+    background-color: rgba(71, 125, 17, 0.15);
     padding: 67px 75px 0 75px;
     /* height: 538px;
     width: 464px; */
@@ -139,7 +140,7 @@
     display: flex;
     justify-content: space-between;
     border-radius: 8px;
-    background: rgba(39, 39, 39, 0.05);
+    background-color: rgba(39, 39, 39, 0.05);
     padding: 86px 175px;
     text-align: center;
     gap: 100px;
@@ -164,9 +165,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 420px;
+    padding: 100px 400px;
     border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
+    background-color: rgba(229, 84, 115, 0.05);
     gap: 100px;
 }
 
@@ -199,6 +200,119 @@
 
 }
 
+.instagram {
+    margin-top: 128px;
+}
 
+/* Social section styles */
+.insta-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
 
+.insta-para {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
 
+.social {
+    margin: 0 240px;
+}
+
+.flower-image {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 128px;
+}
+
+.newsletter {
+    border-radius: 8px;
+    background-image: url("../Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    /* height: 449px; */
+    padding: 120px 285px;
+}
+
+.news-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.news-para {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0;
+}
+
+.input-btn {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 48px;
+    margin-bottom: 0;
+}
+
+.news-input {
+    border-radius: 8px;
+    background-color: #FFF;
+    border: 0;
+    width: 100%;
+}
+
+.news-input::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 22px;
+}
+
+/* footer section styles */
+.footer {
+    background-color: #111010;
+    padding: 125px 640px;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.footer-title-span {
+    color: white;
+}
+
+.footer-para {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.footer-footer {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
